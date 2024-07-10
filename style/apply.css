@@ -1,0 +1,85 @@
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.boy{
+    width: 240px;
+}
+.slogan{
+    font-weight: 800;
+    font-size: 35px;
+    color: rgb(13, 19, 33);
+    margin-bottom: 30px;
+}
+.slogan2{
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.contact-btn{
+    font-size: 15px;
+    padding: 20px 25px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 19, 33);
+}
+.banner{
+    text-align: center;
+    justify-content: center;
+    background-image: url('../assets/Hero-bg.png');
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.sec-full{
+width: 950px;
+height: 1200px;
+padding: 80px 100px;
+background-color: aqua;
+border-radius: 20px;
+}
+
+.why{
+    text-align: center;
+}
+
+.full-reason{
+    display: flex;
+    padding: 45px;
+    background-color: rgb(255, 255, 255);
+    align-self: stretch;
+    height: 250px;
+    width: 850px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+.reas-head{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;    
+}
+.reas-des{
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(13, 19, 33);
+    opacity: .7;
+    margin-bottom: 32px;
+}
+.reas-btn{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.reas-img{
+  width: 260px;
+  height: 220px;
+}
