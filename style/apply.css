@@ -7,13 +7,13 @@
 .boy{
     width: 240px;
 }
-.slogan{
+.slogan, .insp{
     font-weight: 800;
     font-size: 35px;
     color: rgb(13, 19, 33);
     margin-bottom: 30px;
 }
-.slogan2{
+.slogan2, .insp-slo{
     font-weight: 400;
     font-size: 15px;
     opacity: 0.7;
@@ -39,7 +39,7 @@ main{
 width: 950px;
 height: 1200px;
 padding: 80px 100px;
-background-color: aqua;
+background-color: rgba(13, 19, 33, 0.02);
 border-radius: 20px;
 }
 
@@ -82,4 +82,7 @@ border-radius: 20px;
 .reas-img{
   width: 260px;
   height: 220px;
+}
+.inspiration{
+    text-align: center;
 }
