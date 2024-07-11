@@ -7,13 +7,13 @@
 .boy{
     width: 240px;
 }
-.slogan, .insp{
+.slogan, .insp, .trgt-hd{
     font-weight: 800;
     font-size: 35px;
     color: rgb(13, 19, 33);
     margin-bottom: 30px;
 }
-.slogan2, .insp-slo{
+.slogan2, .insp-slo, .trgt-slo{
     font-weight: 400;
     font-size: 15px;
     opacity: 0.7;
@@ -85,4 +85,110 @@ border-radius: 20px;
 }
 .inspiration{
     text-align: center;
+}
+.trgt-div{
+    text-align: center;
+}
+.all-skill{
+    display: flex;
+}
+.skl-img{
+    height: 55px;
+    width: 55px;
+    margin-bottom: 25px;
+}
+.skl-hd{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 10px 0;
+    color: rgb(13, 19, 33);
+}
+.skl-pr{
+    font-size: 15px;
+    font-weight: 400;
+    opacity: .7;
+    color: rgb(13, 19, 33);
+}
+.skl-a{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+.html-div{
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+.css-div{
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+.js-div{
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+.all-skill{
+    gap: 25px;
+}
+.support{
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    width: 1150px;
+    height: 320px;
+    text-align: center;
+    padding: 65px 0;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.sprt-txt{
+    
+    text-align: center;
+}
+.sprt-hd{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.sprt-pr{
+    font-weight: 400;
+    font-size: 16px;
+    opacity: .7;
+    color: rgb(255, 255, 255); 
+}
+.feed-txt{
+    width: 550px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0 16px;
+}
+.sbmt-btn{
+    width: 120px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.feed{
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    width: auto;
+    height: 70px;
+    padding: 0 150px;
+    margin: 0 auto;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.ft{
+    display: flex;
+    justify-content: center;
+    gap: 530px;
 }
