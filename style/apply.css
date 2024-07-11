@@ -192,3 +192,10 @@ border-radius: 20px;
     justify-content: center;
     gap: 530px;
 }
+.ft-img{
+    margin-top: 10px;
+}
+input[type="textarea"]{
+    font-weight: 400;
+    font-size: 20px;
+}
